@@ -11,7 +11,7 @@ from elasticsearch import Elasticsearch
 from openai import OpenAI
 from dotenv import load_dotenv
 from neo4j_graphrag.embeddings.openai import OpenAIEmbeddings
-from neo4j_query import get_recommendations, get_recommendations_v2
+from neo4j_query import get_recommendations_v2
 
 load_dotenv('.env', override=True)
 
